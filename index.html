@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>UpSkill</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="" rel="icon">
+  <link href="" rel="apple-touch-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-center">
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <center><br><br><br><br><br><br><br><br><br><br>
+        <p style="font-family: BMinds; font-size: 52px; color: white;">Hire exceptional talent at an unbeatable value!
+        </p>
+        <p style="font-family: Montserrat; font-size: 20.5px; color: white;">We eliminate the learning curve through
+          pre-job upskilling, trasforming potential into expertise.<br>We deliver an employee who is perfect for your
+          company's requirements.</p><br>
+        <div class="d-flex  align-items-center justify-content-center">
+          <a href="#about" class="btn-get-started scrollto">START HIRING NOW</a>
+        </div>
+      </center>
+    </div>
+    <div class=""></div>
+  </section>
+
+  <main id="main">
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h3>Tell Us About Your Requirements</h3>
+        </div>
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="position" placeholder="Position" >
+                <label for="position">Position you Are Hiring For?<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="companyName" placeholder="Company Name">
+                <label for="companyName">Company Name<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                <label for="firstName">First Name<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="salary" placeholder="Salary">
+                <label for="salary">Offered Salary Range<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                <label for="lastName">Last Name<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="workType" placeholder="Work Type">
+                <label for="workType">Work Type<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="website" placeholder="Company Website">
+                <label for="website">Company Website<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="date" class="form-control" id="date" placeholder="Start Date">
+                <label for="date">Start Date for the employee<span class="mandatory">*</span></label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="col">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <label for="email">Company Email<span class="mandatory">*</span></label>
+                </div>
+              </div>
+              <div class="col">
+                <br>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone">
+                  <label for="phone">Company Number<span class="mandatory">*</span></label>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="comments"
+                  style="height: 140px"></textarea>
+                <label for="comments">Tell Us About Any Other Requirements</label>
+              </div>
+            </div>
+          </div>
+        </div><br>
+        <center>
+          <p class="form-footer">Be part of the evolution in recruitment industry.<br>Don't miss out on this new way of
+            hiring.</p>
+          <div class="d-flex align-items-center justify-content-center">
+            <button type="button" class="btn-submit" onclick="submitForm()">SUBMIT</button>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+        <div class="testimonial-item">
+          <h3>Proof Of Record</h3><br>
+          <center>
+            <hr style="width: 500px; color: rgb(249, 186, 19); height: 4px; size: 10px;">
+          </center> <br>
+          <p>
+            Our past client case studies reveal that employees sourced through
+            us achieve full productivity four times faster than
+            employees hired otherwise.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h3>Why UpSkill Trainers?</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box" style="background-color: rgb(249, 186, 19);">
+              <img src="assets/img/Layer 5.png" style="width: 30%;"><br><br>
+              <p class="box-text">Transforming Potential<br>Into Expertise</p>
+              <hr>
+              <p class="box-content">With UpSkill Trainers, you gain access to a
+                unique pool of candidates who have already undergone pre-job upskilling.
+                This means your team is ready on day one, eliminating costly
+                learning curves & streamlining your workforce.
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box" style="background-color: rgb(246, 201, 80);">
+              <img src="assets/img/Layer 6.png" style="width: 24%;"><br><br>
+              <p class="box-text">Faster Productivity,<br>Lower Costs</p>
+              <hr>
+              <p class="box-content">Our track record shows that our hiring process
+                delivers employees who achieve full productivity in just one-fourth
+                the time it takes with traditional hiring. This results in substantial
+                cost savings and a more efficient, dynamic team.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box" style="background-color: rgb(246, 214, 126);">
+              <img src="assets/img/Layer 7.png" style="width: 24%;"><br><br>
+              <p class="box-text">Talent<br>Precision</p>
+              <hr>
+              <p class="box-content">We specialise in pinpointing the perfect match for
+                your team. Our bespoke approach ensures that you gain employees who not
+                only meet but exceed your specific requirements, providing an
+                exact fit for your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <center>
+      <div class="d-flex align-items-center justify-content-center">
+        <button type="button" class="btn-submit">TALK TO OUR TEAM</button>
+      </div>
+    </center><br>
+    <!-- <div class="col-6">
+      <div class="slider-container">
+        <div class="video-slider">
+          <video id="videoPlayer" controls autoplay style="border-radius: 10px; width: 200%; height: 50vh;">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div> -->
+    <!-- <center>
+      <div class="d-flex align-items-center justify-content-center">
+        <button type="button" class="btn-submit">START HIRING NOW</button>
+      </div>
+    </center><br> -->
+  </main>
+
+  <footer id="footer">
+    <div class="container py-4">
+      <div class="container">
+        <center><a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a></center><br><br>
+        <div class="row">
+          <div class="col-6 address">
+            <p><i class="bi bi-geo-alt-fill"></i> 9131 Keele St., Suite A4, Vaughan, ON L4K 0G7</p>
+            <p><i class="bi bi-telephone-fill"></i> +1(416)-306-2155</p>
+          </div>
+
+          <div class="col-6 address">
+            <p style="float: right;"><span style="float: right;">Services</span><br><span style="float: right;">Our
+                Terms</span><br><span style="float: right;">Privacy Policy</span><br>
+              <img src="assets/img/fb.png" style="width: 30px; height: 30px; float: right;"><img
+                src="assets/img/linkedin.png" style="width: 30px; height: 30px; float: right;">&nbsp;&nbsp;<img
+                src="assets/img/insta.png" style="width: 30px; height: 30px; float: right;">&nbsp;&nbsp;
+            </p><br>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <center>
+          &copy; Copyright 2023 Upskill Trainers</center>
+      </div>
+    </div>
+  </footer>
+
+  </style>
+
+
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
+
+</body>
+
+</html>
