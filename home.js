@@ -7,8 +7,6 @@ function submitForm() {
           accept: 'application/json',
           'content-type': 'application/*+json',
           Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJteHBueWxzbmt5bTV4c3k3ZGttNyIsIm14LXdzaWQiOiIzM0MyQ0I2OS00MEZELTREQTItQjA1OS1BQjUzNjkzN0I5RDciLCJleHAiOjE3OTMzMTg0MDB9.LGEBAXuZuyTVtPBziDPMvCcwt6x0iurwO3AXKC1tEbc',
-          'Access-Control-Allow-Headers': 'Content-Type, Authorization, Access-Control-Allow-Headers',
-                        'Access-Control-Allow-Methods': 'POST',
         },
         body: '{"contactType":0,"companyName":'+document.getElementById("companyName").value+',"firstName":'+document.getElementById("firstName").value+',"lastName":'+document.getElementById("lastName").value+',"website":'+document.getElementById("website").value+',"phones":[{"number":'+document.getElementById("phone").value+'}],"emails": [{"address":'+document.getElementById("email").value+'}]}'
       };
