@@ -3,7 +3,6 @@ function submitForm() {
 
     const options = {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           accept: 'application/json',
           'content-type': 'application/*+json',
